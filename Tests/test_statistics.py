@@ -25,6 +25,15 @@ class MyTestCase(unittest.TestCase):
         for column in answer:
             self.assertEqual(self.statistics.med(lst), float((column['median'])))
             self.assertNotEqual(self.statistics.med(lst), float((column['median'])) + 2, "Incorrect Median")
+    # Mode
+
+    def test_Mode_calculator(self):
+        test_data = CsvReader('Tests/Data/StatCalcData.csv').data
+        answer = CsvReader('Tests/Data/StatAnswers.csv').data
+        lst = data_add(test_data)
+        for column in answer:
+            self.assertEqual(self.statistics.mod(lst), float((column['mode'])))
+            self.assertNotEqual(self.statistics.mod(lst), float((column['mode'])) - 2, "Incorrect Mode")
 
 
 if __name__ == '__main__':
