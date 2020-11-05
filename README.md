@@ -3,7 +3,7 @@
 
 Calculator Created by Hiren Paghdal and Utsav Patel
 
-##Program Outline: 
+## Program Outline: 
 
 
-##Changelog
+## Changelog
