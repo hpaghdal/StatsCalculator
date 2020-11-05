@@ -3,6 +3,7 @@ from Calculator.Subtraction import subtraction
 from Calculator.Division import division
 from Calculator.Multiplication import multiplication
 from Calculator.Square import square
+from Calculator.Sqrt import root
 
 class Calculator:
     result = 0
@@ -28,4 +29,8 @@ class Calculator:
 
     def square(self, a):
         self.result = square(a)
+        return self.result
+
+    def sqrt(self, a):
+        self.result = root(a)
         return self.result
