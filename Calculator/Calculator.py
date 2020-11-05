@@ -1,5 +1,6 @@
 from Calculator.Addition import addition
 from Calculator.Subtraction import subtraction
+from Calculator.Division import division
 
 
 class Calculator:
@@ -14,4 +15,8 @@ class Calculator:
 
     def subtract(self, a, b):
         self.result = subtraction(a, b)
+        return self.result
+
+    def divide(self, a, b):
+        self.result = round(division(a, b), 7)
         return self.result

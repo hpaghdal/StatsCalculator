@@ -19,3 +19,11 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader('Tests/Data/Subtraction.csv').data
         for row in test_data:
             self.assertEqual(self.calculator.subtract(row['Value 1'], row['Value 2']), int(row['Result']))
+
+    def test_divide_method_calculator(self):
+        test_data = CsvReader('Tests/Data/Division.csv').data
+        for row in test_data:
+            x = float(row['Value 1'])
+            y = float(row['Value 2'])
+            z = float(row['Result'])
+            self.assertEqual(self.calculator.divide(y, x), round(z, 7))
