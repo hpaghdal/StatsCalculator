@@ -2,7 +2,7 @@ from Calculator.Addition import addition
 from Calculator.Subtraction import subtraction
 from Calculator.Division import division
 from Calculator.Multiplication import multiplication
-
+from Calculator.Square import square
 
 class Calculator:
     result = 0
@@ -24,4 +24,8 @@ class Calculator:
 
     def multiply(self, a, b):
         self.result = multiplication(a, b)
+        return self.result
+
+    def square(self, a):
+        self.result = square(a)
         return self.result
