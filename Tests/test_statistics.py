@@ -44,6 +44,15 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.stddev(lst), float((column['stdev'])))
             self.assertNotEqual(self.statistics.stddev(lst), float((column['stdev'])) * 3, "Wrong Pop Std Deviation")
 
+    # Z-Score
+    def test_zscore_calculator(self):
+        test_data = CsvReader('Tests/Data/StatCalcData.csv').data
+        answer = CsvReader('Tests/Data/StatAnswers.csv').data
+        lst = data_add(test_data)
+        for column in answer:
+            self.assertEqual(self.statistics.z_score(lst), float((column['zscore'])))
+            self.assertNotEqual(self.statistics.z_score(lst), float((column['zscore'])) * 2, "Incorrect Z Score")
+
 
 
 
