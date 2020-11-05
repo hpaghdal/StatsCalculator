@@ -9,7 +9,7 @@ Calculator Created by Hiren Paghdal and Utsav Patel
 
  ## Statistical Terms
   
-  The [References]() folder will direct you to a list of terms for the descriptions of these statistical math calculations.
+  The [References](https://github.com/hpaghdal/StatsCalculator/tree/master/Definitions) folder will direct you to a list of terms for the descriptions of these statistical math calculations.
 
 
 ## Changelog
