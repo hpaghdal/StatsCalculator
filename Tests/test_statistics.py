@@ -53,6 +53,15 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.z_score(lst), float((column['zscore'])))
             self.assertNotEqual(self.statistics.z_score(lst), float((column['zscore'])) * 2, "Incorrect Z Score")
 
+    # Variance
+    def test_population_variance_calculator(self):
+        test_data = CsvReader('Tests/Data/StatCalcData.csv').data
+        answer = CsvReader('Tests/Data/StatAnswers.csv').data
+        lst = data_add(test_data)
+        for column in answer:
+            self.assertEqual(self.statistics.pvariance(lst), float((column['pop_variance'])))
+            self.assertNotEqual(self.statistics.pvariance(lst), float((column['pop_variance'])) - 3, "Wrong Pop Var")
+
 
 
 

@@ -5,6 +5,7 @@ from Statistics.Median import median
 from Statistics.Mode import mode
 from Statistics.StandardDeviation import st_dev
 from Statistics.Zscore import zscore
+from Statistics.PopulationVariance import pop_variance
 
 
 class Statistics(Calculator):
@@ -37,6 +38,11 @@ class Statistics(Calculator):
     # Z-Score
     def z_score(self, a):
         self.result = zscore(a)
+        return self.result
+
+    # Variance
+    def pvariance(self, a):
+        self.result = pop_variance(a)
         return self.result
 
 
