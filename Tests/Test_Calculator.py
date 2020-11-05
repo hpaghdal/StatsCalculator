@@ -27,3 +27,8 @@ class MyTestCase(unittest.TestCase):
             y = float(row['Value 2'])
             z = float(row['Result'])
             self.assertEqual(self.calculator.divide(y, x), round(z, 7))
+
+    def test_multiply_method_calculator(self):
+        test_data = CsvReader('Tests/Data/Multiplication.csv').data
+        for row in test_data:
+            self.assertEqual(self.calculator.multiply(int(row['Value 1']), int(row['Value 2'])), int(row['Result']))
