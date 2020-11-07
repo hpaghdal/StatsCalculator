@@ -6,5 +6,5 @@ Cochran’s formula is considered especially appropriate in situations with larg
 
 The Cochran formula is:
 
-<img width="300" alt="formula" src="https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Cochranformula.jpg" style="max-width:100%;">
+<img width="600" alt="formula" src="https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Cochranformula.jpg" style="max-width:100%;">
 
