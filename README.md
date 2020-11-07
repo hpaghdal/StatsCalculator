@@ -82,6 +82,6 @@ Calculator Created by Hiren Paghdal and Utsav Patel
 
 
 ## [Changelog](https://github.com/hpaghdal/StatsCalculator/projects/1?fullscreen=true)
-We used github's project management tool to see what tasks are planned or in-progress, and to keep track of tasks and commits. 
+We used github's project management tool to see what tasks are planned or in-progress, and to keep track of individual tasks and commits. 
 
 
