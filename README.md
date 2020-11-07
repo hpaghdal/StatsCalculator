@@ -45,7 +45,6 @@ Calculator Created by Hiren Paghdal and Utsav Patel
         * No specified seed
     * Random Float
         * Specified and none specified seed
-        * 
     * Random list of n integers - specified seed
     * Random list of n floats - specified seed
     * Randomly select an item from a list
@@ -82,6 +81,7 @@ Calculator Created by Hiren Paghdal and Utsav Patel
   The [References](https://github.com/hpaghdal/StatsCalculator/tree/master/Definitions) folder will direct you to a list of terms for the descriptions of these statistical math calculations.
 
 
-## Changelog
+## [Changelog](https://github.com/hpaghdal/StatsCalculator/projects/1?fullscreen=true)
+We used github's project management tool to see what tasks are planned or in-progress, and to keep track of tasks and commits. 
 
 
