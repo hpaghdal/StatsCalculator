@@ -1,4 +1,4 @@
-## Population Standard Deviation
+## Standard Deviation
 
 ### What is Standard Deviation?
 
