@@ -6,10 +6,5 @@ Cochran’s formula is considered especially appropriate in situations with larg
 
 The Cochran formula is:
 
-<img width="150" alt="formula" src="https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Cochranformula.jpg" style="max-width:100%;">
+<img width="300" alt="formula" src="https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Cochranformula.jpg" style="max-width:100%;">
 
-Where:
-
-e is the desired level of precision (i.e. the margin of error),
-p is the (estimated) proportion of the population which has the attribute in question,
-q is 1 – p.
