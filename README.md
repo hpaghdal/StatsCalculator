@@ -67,7 +67,7 @@ Calculator Created by Hiren Paghdal and Utsav Patel
 * [Median](https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Median.md)
 * [Mode](https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Mode.md)
 * [Variance](https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/variance.md)
-* [Standard Deviation](https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Population%20Standard%20Deviation.md)
+* [Standard Deviation](https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Standard%20Deviation.md)
 * [Z-Score](https://github.com/hpaghdal/StatsCalculator/blob/master/Definitions/Z-Score.md)
 
 ## 6. Helper Functions 
