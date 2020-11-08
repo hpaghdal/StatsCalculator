@@ -19,23 +19,23 @@ Calculator Created by Hiren Paghdal and Utsav Patel
 ## 2. Basic Math Operations (Static methods)
 
 * Addition
-        * Sum 2 numbers
-        * Sum List of numbers
+    * Sum 2 numbers
+    * Sum List of numbers
         
 * Subtraction
-        * Subtract 1 number by another number
+    * Subtract 1 number by another number
 
 * Multiplication
-        * Multiply 1 number by another number
+    * Multiply 1 number by another number
 
 * Division
-        * Divide 1 number by another number
+    * Divide 1 number by another number
 
 * Square
-        * Calculate the square of number
+    * Calculate the square of number
 
 * Square root
-        * Calculate the square root of number
+    * Calculate the square root of number
 
 
 ## 3. Random Number Generator
